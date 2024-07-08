@@ -1,0 +1,361 @@
+@import "./utilities.css";
+@import "./footer-end.css";
+html,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: rgba(247, 247, 247, 0.961);
+}
+button {
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.333);
+}
+.btn-weight {
+  font-weight: 600;
+}
+.container-fluid img {
+  height: 32px;
+  width: 110px;
+  margin-left: 5rem;
+}
+
+.navbar {
+  background-color: white;
+}
+.navbar .collapse {
+  margin: 5px 0;
+}
+.navbar-nav {
+  margin-right: 3rem;
+}
+.mar-left {
+  margin-left: 30px;
+}
+.mar-left {
+  margin-left: 30px;
+}
+.nav-link i {
+  font-size: 1.2rem;
+}
+.nav-link:hover {
+  text-decoration: underline gold;
+}
+.bold {
+  font-weight: 500;
+}
+.cursor {
+  cursor: pointer;
+}
+.nav-link span {
+  font-size: 10px;
+}
+.navbar-nav span {
+  font-size: 30px;
+  padding-top: 0;
+}
+.top-section {
+  margin: 3rem 5rem 3rem 3rem;
+  display: flex;
+  justify-content: space-evenly;
+}
+.top-section .left .first-p {
+  font-weight: 400;
+  padding: 0 3rem;
+  font-size: 4rem;
+  line-height: 80px;
+}
+
+.top-section .left .second-p {
+  font-size: 1.3rem;
+  padding: 0 4rem 0 3rem;
+}
+.top-section .left .buttons {
+  margin: 0 4rem 0 3rem;
+}
+.top-section .left .buttons .button2 {
+  margin-left: 5px;
+  border: 1px solid black;
+}
+.top-section .left .first-p span {
+  font-weight: bold;
+  text-decoration: underline gold;
+  transition: all 0.5s ease-in-out;
+}
+.top-section .left .first-p span:hover {
+  background-color: gold;
+}
+.top-section .right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.top-section .right img {
+  margin-left: 0rem;
+  height: 420px;
+  width: 420px;
+}
+.section-top {
+  text-align: center;
+}
+.section-top button {
+  font-size: 12px;
+  color: black;
+  font-weight: bold;
+}
+.top-section-p {
+  margin-top: 15px;
+  font-size: 2.4rem;
+  font-weight: bold;
+}
+
+.second-section .section-bottom .card {
+  text-align: center;
+  margin: 2rem 0;
+  width: 400px;
+
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.174);
+}
+.second-section .section-bottom .card img {
+  margin: 2rem auto;
+  height: 135px;
+  width: 180px;
+}
+.second-section .section-bottom .card .first-p {
+  padding: 0 2rem;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+.second-section .section-bottom.card .second-p {
+  font-size: 1.1rem;
+  padding: 0 2rem;
+}
+.second-section .section-bottom .card button {
+  margin: 2rem auto;
+  padding: 5px 20px;
+  width: 200px;
+  display: flex;
+}
+.third-section .section-top {
+  margin-top: 4rem;
+}
+.top-section-p2 {
+  font-size: 1.1rem;
+}
+.third-section {
+  z-index: 1;
+  position: sticky;
+  top: 0;
+}
+
+.third-section .section-bottom {
+  margin: 2rem 4rem 0 4rem;
+  box-shadow: 0px 0 1px black;
+  background-color: rgb(253, 239, 211);
+}
+
+.third-section .section-bottom .left {
+  margin: 3rem 0;
+}
+.third-section .section-bottom .left .top-section-p {
+  font-size: 2rem;
+  padding: 0 2rem;
+}
+.third-section .section-bottom .left .top-section-p2 {
+  font-size: 1.1rem;
+  margin: 0 2rem 0 2rem;
+}
+.third-section .section-bottom .left ul {
+  margin: 2rem 2rem;
+}
+.third-section .section-bottom .left ul li {
+  font-size: 1.1rem;
+  line-height: 3rem;
+}
+.third-section .section-bottom .right {
+  margin: 4rem 0;
+}
+.third-section .section-bottom .right img {
+  margin-left: 1rem;
+  height: 400px;
+  width: 450px;
+}
+.fourth-section {
+  position: sticky;
+  z-index: 3;
+  top: 0;
+}
+.fourth-section .section-bottom {
+  margin: 0rem 4rem 0 4rem;
+  box-shadow: 0px 0 1px black;
+  background-color: rgb(250, 216, 241);
+}
+.fourth-section .section-bottom .left {
+  margin: 3rem 0 2rem 0;
+}
+.fourth-section .section-bottom .left .top-section-p {
+  font-size: 2rem;
+  padding: 1rem 2rem 0 2rem;
+}
+.fourth-section .section-bottom .left .top-section-p2 {
+  font-size: 1.1rem;
+  padding: 0 3rem 0 0;
+  margin: 0 2.9rem 0 2rem;
+}
+.fourth-section .section-bottom .left ul {
+  margin: 1.5rem 2rem 0 2rem;
+}
+.fourth-section .section-bottom .left ul li {
+  font-size: 1.1rem;
+  line-height: 3rem;
+}
+.fourth-section .section-bottom .right {
+  margin: 4rem 0;
+}
+.fourth-section .section-bottom .right img {
+  margin: 1.5rem 2rem 0 5rem;
+  height: 270px;
+  width: 420px;
+}
+
+.second-half {
+  background-color: rgb(247, 247, 247);
+  position: relative;
+  z-index: 30;
+}
+
+.second-half .fifth-section .section-top .top-section-p {
+  padding: 3rem 0;
+}
+.second-half .fifth-section .section-bottom img {
+  width: 900px;
+}
+.sixth-section {
+  padding-top: 8rem;
+}
+.sixth-section .third-section-top .top-section-p2 {
+  padding: 0rem 20rem;
+  font-size: 1.2rem;
+}
+.sixth-section .section-bottom {
+  padding: 5rem 0 0 0;
+}
+.sixth-section .section-bottom img {
+  width: 900px;
+}
+.seventh-section .seventh-div {
+  margin: 2rem 4rem;
+}
+
+.seventh-section .left .left-p {
+  color: white;
+  padding: 1px 8px;
+  background-color: rgb(85, 180, 85);
+  border-radius: 5px;
+  display: inline-block;
+}
+.seventh-section .right img {
+  width: 360px;
+  height: 280px;
+}
+.eight-section .eight-div {
+  background-color: white;
+  margin: 4rem 4rem;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.13);
+}
+.eight-section .text-center {
+  padding: 2rem 0 4rem 0;
+  text-align: center;
+}
+
+.eight-section .eight-div .text-center button {
+  margin-top: 1rem;
+}
+/* ffjjf */
+footer .footer-top {
+  margin-top: 10rem;
+}
+
+footer .footer-top .footer-top-up {
+  margin: 0 15rem;
+}
+footer .footer-top .footer-top-up .up-top {
+  padding: 0 6rem;
+  text-align: center;
+}
+footer .footer-top .footer-top-up .up-top .top-section-p {
+  font-size: 2.6rem;
+}
+footer .footer-top .footer-top-up .up-top .top-section-p2 {
+  padding: 0 5rem;
+}
+.down-top {
+  margin: 3rem 0;
+}
+.icons a {
+  text-decoration: none;
+}
+.icons a i {
+  color: black;
+  font-size: 3rem;
+}
+@media (max-width: 990px) {
+  .navbar-nav .cursor {
+    display: none;
+  }
+  .container-fluid img {
+    height: 30px;
+    width: 110px;
+    margin-left: 0.5rem;
+  }
+  .top-section .right img {
+    display: none;
+  }
+  .top-section {
+    margin: 3rem 0.5rem 2rem 0.5rem;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .top-section .left .first-p {
+    font-weight: 400;
+    padding: 0 0.5rem;
+    font-size: 2.2rem;
+    line-height: 40px;
+  }
+  .top-section .left .second-p {
+    font-size: 1.1rem;
+    padding: 0 0.5rem 0 0.5rem;
+  }
+  .top-section .left .buttons {
+    margin: 0 0.5rem 0 0.5rem;
+  }
+  .section-top .top-section-p {
+    margin-top: 1.6rem;
+    font-size: 1.4rem;
+    font-weight: bold;
+  }
+  .section-bottom {
+    flex-wrap: wrap;
+  }
+  .second-section {
+    margin-top: 4rem;
+  }
+
+  .second-section .section-bottom.card {
+    margin: 1.4rem 0.9rem;
+  }
+  .second-section .section-bottom.card img {
+    margin: 1.5rem auto;
+    height: 130px;
+    width: 180px;
+  }
+  .second-section .section-bottom .card .first-p {
+    padding: 0 0.5rem;
+    font-size: 1.2rem;
+    font-weight: 700;
+  }
+  .second-section .section-bottom .card .second-p {
+    padding: 0 0.1rem;
+  }
+}

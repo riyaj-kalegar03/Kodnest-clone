@@ -1,0 +1,95 @@
+.footer-end {
+  padding: 40px 20px;
+}
+
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  text-align: left;
+}
+
+.footer-section {
+  flex: 1;
+  margin: 20px;
+  min-width: 200px;
+  text-align: center;
+  line-height: 2rem;
+}
+.footer-section img {
+  width: 100px;
+  height: 40px;
+  margin-bottom: 1rem;
+}
+
+.footer-section h2,
+.footer-section h3 {
+  color: #333;
+}
+
+.footer-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-section ul li {
+  margin: 10px 0;
+}
+
+.footer-section ul li a {
+  text-decoration: none;
+  color: #333;
+  transition: color 0.3s;
+}
+
+.footer-section ul li a:hover {
+  color: #ff9800;
+}
+
+.footer-section ul li .hiring {
+  color: #06a354;
+  font-weight: bold;
+}
+
+.footer-bottom {
+  text-align: center;
+  border-top: 1px solid #ddd;
+  padding: 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.footer-bottom p {
+  margin: 10px 0;
+  display: inline-block;
+  font-size: 21px;
+}
+
+.footer-bottom a {
+  color: #333;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.footer-bottom a:hover {
+  color: #ff9800;
+}
+
+.register-button {
+  border: 2px solid gold;
+  color: black;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 10px 0;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.register-button:hover {
+  color: white;
+  background-color: #e68a00;
+}
