@@ -1,6 +1,6 @@
 # Clone - Kodnest training center website Clone
 
-This is kodnest website clone with animation
+This is kodnest website clone with animation,
 developed using html, css and animation used is AOS.
 
 
